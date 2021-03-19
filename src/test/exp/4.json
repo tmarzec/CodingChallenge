@@ -1,0 +1,19 @@
+{
+    "$schema" : "http://json-schema.org/draft-04/schema#",
+    "type" : "object",
+    "title" : "My schema",
+    "additionalProperties" : false,
+    "properties.Book.type" : "array",
+    "properties.Book.additionalItems" : false,
+    "properties.Book.items.type" : "object",
+    "properties.Book.items.additionalProperties" : false,
+    "properties.Book.items.properties.Title.type" : "string",
+    "properties.Book.items.properties.Price.type" : "number",
+    "properties.Book.items.properties.ISBN.type" : "string",
+    "properties.Book.items.properties.Genre.type" : "string",
+    "properties.Book.items.properties.Author.type" : "array",
+    "properties.Book.items.properties.Author.items.type" : "object",
+    "properties.Book.items.properties.Author.items.additionalProperties" : false,
+    "properties.Book.items.properties.Author.items.properties.FirstName.type" : "string",
+    "properties.Book.items.properties.Author.items.properties.Surname.type" : "string"
+}

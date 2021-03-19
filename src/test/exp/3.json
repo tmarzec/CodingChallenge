@@ -1,0 +1,11 @@
+{
+    "quiz.sport.q1.question" : "Which one is correct team name in NBA?",
+    "quiz.sport.q1.selected" : "Golden State Warriros",
+    "quiz.sport.q1.answer" : "Huston Rocket",
+    "quiz.maths.q1.question" : "5 + 7 = ?",
+    "quiz.maths.q1.selected" : "12",
+    "quiz.maths.q1.answer" : "12",
+    "quiz.maths.q2.question" : "12 - 8 = ?",
+    "quiz.maths.q2.selected" : "20",
+    "quiz.maths.q2.answer" : "4"
+}
